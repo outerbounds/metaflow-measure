@@ -59,7 +59,7 @@ In addition, `measure` provides `distribution` which allows
 you to measure distributions of values (e.g. p50, p95 etc) relying
 on server-side aggregation for accuracy.
 
-```
+```python
 from metaflow.plugins import measure
 
 # record a gauge metric
@@ -70,7 +70,7 @@ measure.distribution('mydistribution', value)
 For convenience, the API provides a context manager that
 allows you to measure the execution time of a code block easily.
 
-```
+```python
 from metaflow.plugins import measure
 
 with measure.TimeDistribution('mytiming'):
