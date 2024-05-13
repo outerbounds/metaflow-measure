@@ -62,7 +62,7 @@ on server-side aggregation for accuracy.
 ```python
 from metaflow.plugins import measure
 
-# record a gauge metric
+# record a distribution metric
 measure.distribution('mydistribution', value)
 
 ```
