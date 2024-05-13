@@ -56,10 +56,10 @@ from metaflow.plugins import measure
 # record a gauge metric
 measure.gauge('mymetric', value)
 
-# record a gauge metric
+# increment a metric
 measure.increment('mymetric', value)
 
-# record a gauge metric
+# decrement a metric
 measure.decrement('mymetric', value)
 ```
 
