@@ -28,6 +28,16 @@ metrics and measure execution times in your Metaflow steps.
    `dogstatsd` on the fly, so it works in any execution
    environment.
 
+## Installation
+
+In your development environment, install
+```
+pip install metaflow-measure
+```
+Note that you don't need to make the package available in
+container images you use to execute tasks remotely. Metaflow
+packages the extension automatically for remote execution.
+
 ## API
 
 The `measure` module exposes [`statsd`-style measurement
