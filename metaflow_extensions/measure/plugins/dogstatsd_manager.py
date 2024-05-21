@@ -19,6 +19,7 @@ BASE = "https://outerbounds-metaflow-public.s3.us-west-2.amazonaws.com/"
 BINARIES = {
     ("Darwin", "arm64"): "dogstatsd-darwin-arm64",
     ("Linux", "x86_64"): "dogstatsd-linux-amd64",
+    ("Linux", "aarch64"): "dogstatsd-linux-aarch64"
 }
 
 # wait for this many seconds when another process
